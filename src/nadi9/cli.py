@@ -11,10 +11,13 @@ from .learning.hypotheses import HypothesisGenerator
 from .learning.tester import RuleTester
 from .translate.planner import TranslationPlanner
 from .translate.translator import Translator
-from .verify.verifier import Verifier
+from .verify import Verifier
 from .escalation.review_queue import ReviewQueue
-from .replan.corrections import DependencyGraph, CorrectionHandler
-from .report.reporters import Reporter
+from .memory.dependency_graph import DependencyGraph
+from .replan.corrections import CorrectionHandler
+from .report.srt import write_srt
+from .report.jsonl import write_jsonl
+from .report.final_report import write_final_report
 import logging
 
 logging.basicConfig(level=logging.INFO, filename='run_log.jsonl')
@@ -69,9 +72,9 @@ def run_pipeline(args):
     
     # Outputs
     os.makedirs("sample_run", exist_ok=True)
-    Reporter.write_srt(final_decisions, "sample_run/subtitles.srt")
-    Reporter.write_jsonl(final_decisions, "sample_run/subtitle_decisions.jsonl")
-    Reporter.write_final_report(final_decisions, "sample_run/final_report.md")
+    write_srt(final_decisions, "sample_run/subtitles.srt")
+    write_jsonl(final_decisions, "sample_run/subtitle_decisions.jsonl")
+    write_final_report(final_decisions, "sample_run/final_report.md")
     
     with open("sample_run/learned_rules.json", "w") as f:
         json.dump([r.dict() for r in tested_rules], f, indent=2)

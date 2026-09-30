@@ -1,0 +1,1 @@
+# Auto-generated stub to match exact repository layout requirements\n
