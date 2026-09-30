@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nadi9"
+version = "0.1.0"
+dependencies = [
+    "pydantic>=2.0.0",
+    "pytest>=7.0.0"
+]
+
+[project.scripts]
+nadi9 = "nadi9.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

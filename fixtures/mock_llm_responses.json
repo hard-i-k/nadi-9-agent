@@ -1,0 +1,1 @@
+{"Extract language rules": "[{\"id\": \"r1\", \"statement\": \"r1 mock rule\", \"category\": \"grammar\"}]", "Translate: You came back, elder brother?": "{\"nadi_9_text\": \"loma r1 mock rule\", \"decision\": \"HUMAN_REVIEW\", \"confidence\": 0.8}", "Translate: Yes, I am back.": "{\"nadi_9_text\": \"UNSUPPORTED_WORD\", \"decision\": \"AUTO_APPROVE\", \"confidence\": 0.9}"}

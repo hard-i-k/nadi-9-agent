@@ -1,0 +1,13 @@
+[
+  {
+    "id": "r1",
+    "statement": "r1 mock rule",
+    "category": "grammar",
+    "supporting_evidence_ids": [],
+    "counterexample_ids": [],
+    "status": "UNSUPPORTED",
+    "confidence": 0.0,
+    "confidence_reason": "No supporting evidence found in approved examples.",
+    "context_conditions": {}
+  }
+]
