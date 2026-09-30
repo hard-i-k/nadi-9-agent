@@ -1,0 +1,182 @@
+[
+  {
+    "id": "example:E01",
+    "type": "approved_example",
+    "content": "source: Hello, friend. | nadi9: Lora, mara.",
+    "author": "vendor",
+    "date": "2024-01-15",
+    "scope": "episode_pilot",
+    "metadata": {"speaker": "A", "listener": "B", "relationship": "friends", "scene": "cafe"}
+  },
+  {
+    "id": "example:E02",
+    "type": "approved_example",
+    "content": "source: You came back, elder brother? | nadi9: Velor rakshi, thama-jin?",
+    "author": "vendor",
+    "date": "2024-01-15",
+    "scope": "episode_pilot",
+    "metadata": {"speaker": "Younger Sibling", "listener": "Elder Sibling", "relationship": "siblings", "scene": "home"}
+  },
+  {
+    "id": "example:E03",
+    "type": "approved_example",
+    "content": "source: I will see you, elder brother. | nadi9: Kor tor shara-ki, thama-jin.",
+    "author": "vendor",
+    "date": "2024-01-15",
+    "scope": "episode_pilot",
+    "metadata": {"speaker": "Younger", "listener": "Elder", "relationship": "siblings", "scene": "departure"}
+  },
+  {
+    "id": "example:E04",
+    "type": "approved_example",
+    "content": "source: Younger brother spoke. | nadi9: Thama-su voka-va.",
+    "author": "vendor",
+    "date": "2024-01-15",
+    "scope": "episode_pilot",
+    "metadata": {"speaker": "Elder", "listener": "Other", "relationship": "neutral", "scene": "discussion"}
+  },
+  {
+    "id": "example:E05",
+    "type": "approved_example",
+    "content": "source: I did not see. | nadi9: Kor na-shara-va.",
+    "author": "vendor",
+    "date": "2024-01-15",
+    "scope": "episode_pilot",
+    "metadata": {"speaker": "Witness", "listener": "Guard", "relationship": "formal", "scene": "gate"}
+  },
+  {
+    "id": "example:E06",
+    "type": "approved_example",
+    "content": "source: Will you not speak? | nadi9: Tor na-voka-ki?",
+    "author": "vendor",
+    "date": "2024-01-15",
+    "scope": "episode_pilot",
+    "metadata": {"speaker": "Mother", "listener": "Child", "relationship": "parent-child", "scene": "home"}
+  },
+  {
+    "id": "example:E07",
+    "type": "approved_example",
+    "content": "source: Hey dude, let's go. | nadi9: Yo mara, vamo-ki.",
+    "author": "vendor",
+    "date": "2024-01-15",
+    "scope": "episode_pilot",
+    "metadata": {"speaker": "Teen", "listener": "Teen", "relationship": "friends", "scene": "street", "code_switching": true}
+  },
+  {
+    "id": "example:E08",
+    "type": "approved_example",
+    "content": "source: My computer is broken! | nadi9: Kor-ma computer na-work-va!",
+    "author": "vendor",
+    "date": "2024-01-15",
+    "scope": "episode_pilot",
+    "metadata": {"speaker": "Office Worker", "listener": "IT", "relationship": "colleagues", "scene": "office", "code_switching": true}
+  },
+  {
+    "id": "example:E09",
+    "type": "approved_example",
+    "content": "source: The dog ate the food. | nadi9: Dogo fud-ta eat-va.",
+    "author": "vendor",
+    "date": "2024-01-15",
+    "scope": "episode_pilot",
+    "metadata": {"speaker": "Kid", "listener": "Mom", "relationship": "family", "scene": "kitchen", "humor": true}
+  },
+  {
+    "id": "example:E10",
+    "type": "approved_example",
+    "content": "source: We went away. | nadi9: Mor vamo-va.",
+    "author": "vendor",
+    "date": "2024-01-15",
+    "scope": "episode_pilot",
+    "metadata": {"speaker": "Traveler", "listener": "Host", "relationship": "guests", "scene": "inn"}
+  },
+  {
+    "id": "example:E11",
+    "type": "approved_example",
+    "content": "source: You will not return. | nadi9: Tor na-velor-ki.",
+    "author": "vendor",
+    "date": "2024-01-15",
+    "scope": "episode_pilot",
+    "metadata": {"speaker": "Villain", "listener": "Hero", "relationship": "enemies", "scene": "battle"}
+  },
+  {
+    "id": "example:E12",
+    "type": "approved_example",
+    "content": "source: Come here now. | nadi9: Velor here nau.",
+    "author": "vendor",
+    "date": "2024-01-15",
+    "scope": "episode_pilot",
+    "metadata": {"speaker": "Boss", "listener": "Employee", "relationship": "boss-worker", "scene": "office", "code_switching": true}
+  },
+  {
+    "id": "example:E13",
+    "type": "approved_example",
+    "content": "source: He sees her. | nadi9: Sor har shara.",
+    "author": "vendor",
+    "date": "2024-01-15",
+    "scope": "episode_pilot",
+    "metadata": {"speaker": "Narrator", "listener": "Audience", "relationship": "neutral", "scene": "monologue"}
+  },
+  {
+    "id": "example:E14",
+    "type": "approved_example",
+    "content": "source: They will speak later. | nadi9: Sor-plural voka-ki later.",
+    "author": "vendor",
+    "date": "2024-01-15",
+    "scope": "episode_pilot",
+    "metadata": {"speaker": "Observer", "listener": "Observer", "relationship": "peers", "scene": "park"}
+  },
+  {
+    "id": "example:E15",
+    "type": "approved_example",
+    "content": "source: Why did you go? | nadi9: Y tor vamo-va?",
+    "author": "vendor",
+    "date": "2024-01-15",
+    "scope": "episode_pilot",
+    "metadata": {"speaker": "Detective", "listener": "Suspect", "relationship": "investigator", "scene": "station"}
+  },
+  {
+    "id": "example:E16",
+    "type": "approved_example",
+    "content": "source: Because I am tired! | nadi9: Coz kor tired!",
+    "author": "vendor",
+    "date": "2024-01-15",
+    "scope": "episode_pilot",
+    "metadata": {"speaker": "Student", "listener": "Teacher", "relationship": "school", "scene": "class", "humor": true}
+  },
+  {
+    "id": "example:E17",
+    "type": "approved_example",
+    "content": "source: Elder sister, please. | nadi9: Shima-jin, pliz.",
+    "author": "vendor",
+    "date": "2024-01-15",
+    "scope": "episode_pilot",
+    "metadata": {"speaker": "Younger Sibling", "listener": "Elder Sister", "relationship": "siblings", "scene": "home"}
+  },
+  {
+    "id": "example:E18",
+    "type": "approved_example",
+    "content": "source: I will not see the movie. | nadi9: Kor na-shara-ki movi-ta.",
+    "author": "vendor",
+    "date": "2024-01-15",
+    "scope": "episode_pilot",
+    "metadata": {"speaker": "Critic", "listener": "Friend", "relationship": "friends", "scene": "theater"}
+  },
+  {
+    "id": "example:E19",
+    "type": "approved_example",
+    "content": "source: The sun shines. | nadi9: Suna shina-va.",
+    "author": "vendor",
+    "date": "2024-01-15",
+    "scope": "episode_pilot",
+    "metadata": {"speaker": "Poet", "listener": "Audience", "relationship": "formal", "scene": "reading", "may_contain_error": true}
+  },
+  {
+    "id": "example:E20",
+    "type": "approved_example",
+    "content": "source: Moon is bright. | nadi9: Muna na-bright.",
+    "author": "vendor",
+    "date": "2024-01-15",
+    "scope": "episode_pilot",
+    "metadata": {"speaker": "Poet", "listener": "Audience", "relationship": "formal", "scene": "reading", "may_contain_error": true}
+  }
+]

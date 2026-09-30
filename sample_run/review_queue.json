@@ -1,16 +1,243 @@
 [
   {
-    "subtitle_id": "S01",
-    "source_text": "You came back, elder brother?",
-    "nadi_9_text": "loma r1 mock rule",
-    "review_question": null,
-    "status": "HUMAN_REVIEW"
+    "subtitle_id": "S003",
+    "source_text": "Yes, elder sister is here too.",
+    "nadi_9_text": "",
+    "confidence": 0.5,
+    "confidence_reason": "Based on 1 evidence items",
+    "review_question": "Manual review required",
+    "evidence": [
+      "interview:I1:seg-01"
+    ],
+    "conflicts": [],
+    "assumptions": [],
+    "decision": "INSUFFICIENT_EVIDENCE",
+    "verification_issues": []
   },
   {
-    "subtitle_id": "S02",
-    "source_text": "Yes, I am back.",
-    "nadi_9_text": "UNSUPPORTED_WORD",
-    "review_question": "Verification failed: Unsupported vocabulary used",
-    "status": "HUMAN_REVIEW"
+    "subtitle_id": "S002",
+    "source_text": "You came back, elder brother?",
+    "nadi_9_text": "Velor rakshi, thama-jin?",
+    "confidence": 0.75,
+    "confidence_reason": "Requires context check for elder vs younger",
+    "review_question": "Manual review required",
+    "evidence": [
+      "dict_a:term-01",
+      "grammar:rule-05"
+    ],
+    "conflicts": [],
+    "assumptions": [
+      "Elder brother is addressed with -jin"
+    ],
+    "decision": "HUMAN_REVIEW",
+    "verification_issues": []
+  },
+  {
+    "subtitle_id": "S011",
+    "source_text": "It is light.",
+    "nadi_9_text": "",
+    "confidence": 0.5,
+    "confidence_reason": "Based on 5 evidence items",
+    "review_question": "Manual review required",
+    "evidence": [
+      "grammar:rule-07",
+      "grammar:rule-08",
+      "expert:X2:note-02",
+      "expert:X1:note-04",
+      "feedback:F01"
+    ],
+    "conflicts": [],
+    "assumptions": [],
+    "decision": "INSUFFICIENT_EVIDENCE",
+    "verification_issues": []
+  },
+  {
+    "subtitle_id": "S005",
+    "source_text": "My computer is broken!",
+    "nadi_9_text": "Kor-ma computer na-work-va!",
+    "confidence": 0.9,
+    "confidence_reason": "Exact match in approved examples",
+    "review_question": "Unsupported vocabulary found: Unsupported token: na-work-va",
+    "evidence": [
+      "example:E08"
+    ],
+    "conflicts": [],
+    "assumptions": [],
+    "decision": "HUMAN_REVIEW",
+    "verification_issues": [
+      "Unsupported token: na-work-va"
+    ]
+  },
+  {
+    "subtitle_id": "S004",
+    "source_text": "The dog ate the food.",
+    "nadi_9_text": "",
+    "confidence": 0.5,
+    "confidence_reason": "Based on 5 evidence items",
+    "review_question": "Manual review required",
+    "evidence": [
+      "example:E02",
+      "example:E03",
+      "example:E04",
+      "example:E09",
+      "example:E14"
+    ],
+    "conflicts": [],
+    "assumptions": [],
+    "decision": "INSUFFICIENT_EVIDENCE",
+    "verification_issues": []
+  },
+  {
+    "subtitle_id": "S006",
+    "source_text": "I am honored by your visit.",
+    "nadi_9_text": "Kor UNSUPPORTED_WORD.",
+    "confidence": 0.1,
+    "confidence_reason": "Missing vocabulary for honored",
+    "review_question": "Unsupported vocabulary found: Unsupported token: unsupported_word",
+    "evidence": [
+      "example:E01",
+      "example:E02",
+      "example:E03",
+      "example:E04",
+      "example:E05"
+    ],
+    "conflicts": [],
+    "assumptions": [],
+    "decision": "HUMAN_REVIEW",
+    "verification_issues": [
+      "Unsupported token: unsupported_word"
+    ]
+  },
+  {
+    "subtitle_id": "S014",
+    "source_text": "Even though I saw the enemy, I did not run because I am brave.",
+    "nadi_9_text": "",
+    "confidence": 0.5,
+    "confidence_reason": "Based on 1 evidence items",
+    "review_question": "Manual review required",
+    "evidence": [
+      "interview:I3:seg-01"
+    ],
+    "conflicts": [],
+    "assumptions": [],
+    "decision": "INSUFFICIENT_EVIDENCE",
+    "verification_issues": []
+  },
+  {
+    "subtitle_id": "S007",
+    "source_text": "You did well, honored one.",
+    "nadi_9_text": "",
+    "confidence": 0.5,
+    "confidence_reason": "Based on 5 evidence items",
+    "review_question": "Manual review required",
+    "evidence": [
+      "example:E02",
+      "example:E03",
+      "example:E04",
+      "example:E06",
+      "example:E11"
+    ],
+    "conflicts": [],
+    "assumptions": [],
+    "decision": "INSUFFICIENT_EVIDENCE",
+    "verification_issues": []
+  },
+  {
+    "subtitle_id": "S012",
+    "source_text": "Let us be friends again.",
+    "nadi_9_text": "",
+    "confidence": 0.5,
+    "confidence_reason": "Based on 1 evidence items",
+    "review_question": "Manual review required",
+    "evidence": [
+      "example:E07"
+    ],
+    "conflicts": [],
+    "assumptions": [],
+    "decision": "INSUFFICIENT_EVIDENCE",
+    "verification_issues": []
+  },
+  {
+    "subtitle_id": "S013",
+    "source_text": "Agent 007 is here.",
+    "nadi_9_text": "",
+    "confidence": 0.5,
+    "confidence_reason": "Based on 0 evidence items",
+    "review_question": "Manual review required",
+    "evidence": [],
+    "conflicts": [],
+    "assumptions": [],
+    "decision": "INSUFFICIENT_EVIDENCE",
+    "verification_issues": []
+  },
+  {
+    "subtitle_id": "S015",
+    "source_text": "Goodbye for now.",
+    "nadi_9_text": "",
+    "confidence": 0.5,
+    "confidence_reason": "Based on 0 evidence items",
+    "review_question": "Manual review required",
+    "evidence": [],
+    "conflicts": [],
+    "assumptions": [],
+    "decision": "INSUFFICIENT_EVIDENCE",
+    "verification_issues": []
+  },
+  {
+    "subtitle_id": "S008",
+    "source_text": "I did not see.",
+    "nadi_9_text": "",
+    "confidence": 0.5,
+    "confidence_reason": "Based on 5 evidence items",
+    "review_question": "Manual review required",
+    "evidence": [
+      "example:E01",
+      "example:E02",
+      "example:E03",
+      "example:E04",
+      "example:E05"
+    ],
+    "conflicts": [],
+    "assumptions": [],
+    "decision": "INSUFFICIENT_EVIDENCE",
+    "verification_issues": []
+  },
+  {
+    "subtitle_id": "S009",
+    "source_text": "We went away.",
+    "nadi_9_text": "",
+    "confidence": 0.5,
+    "confidence_reason": "Based on 5 evidence items",
+    "review_question": "Manual review required",
+    "evidence": [
+      "example:E10",
+      "dict:A:term-16",
+      "dict:B:term-16",
+      "interview:I1:seg-01",
+      "interview:I4:seg-01"
+    ],
+    "conflicts": [],
+    "assumptions": [],
+    "decision": "INSUFFICIENT_EVIDENCE",
+    "verification_issues": []
+  },
+  {
+    "subtitle_id": "S010",
+    "source_text": "You will not return.",
+    "nadi_9_text": "",
+    "confidence": 0.5,
+    "confidence_reason": "Based on 5 evidence items",
+    "review_question": "Manual review required",
+    "evidence": [
+      "example:E02",
+      "example:E03",
+      "example:E04",
+      "example:E06",
+      "example:E11"
+    ],
+    "conflicts": [],
+    "assumptions": [],
+    "decision": "INSUFFICIENT_EVIDENCE",
+    "verification_issues": []
   }
 ]

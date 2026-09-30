@@ -1,0 +1,22 @@
+[
+  {"id": "dict:B:term-01", "type": "dictionary_b", "content": "word: come | nadi9: velor | pos: verb", "author": "community_linguist", "metadata": {}},
+  {"id": "dict:B:term-02", "type": "dictionary_b", "content": "word: return | nadi9: velor | pos: verb", "author": "community_linguist", "metadata": {}},
+  {"id": "dict:B:term-03", "type": "dictionary_b", "content": "word: back | nadi9: rakshi | pos: adv", "author": "community_linguist", "metadata": {}},
+  {"id": "dict:B:term-04", "type": "dictionary_b", "content": "word: again | nadi9: reksha | pos: adv", "author": "community_linguist", "metadata": {}}, 
+  {"id": "dict:B:term-05", "type": "dictionary_b", "content": "word: friend | nadi9: mara | pos: noun", "author": "community_linguist", "metadata": {}},
+  {"id": "dict:B:term-06", "type": "dictionary_b", "content": "word: brother | nadi9: thama | pos: noun", "author": "community_linguist", "metadata": {}},
+  {"id": "dict:B:term-07", "type": "dictionary_b", "content": "word: sister | nadi9: shima | pos: noun", "author": "community_linguist", "metadata": {}},
+  {"id": "dict:B:term-08", "type": "dictionary_b", "content": "word: see | nadi9: shera | pos: verb", "author": "community_linguist", "metadata": {}}, 
+  {"id": "dict:B:term-09", "type": "dictionary_b", "content": "word: look | nadi9: shera | pos: verb", "author": "community_linguist", "metadata": {}},
+  {"id": "dict:B:term-10", "type": "dictionary_b", "content": "word: speak | nadi9: vokar | pos: verb", "author": "community_linguist", "metadata": {}}, 
+  {"id": "dict:B:term-11", "type": "dictionary_b", "content": "word: talk | nadi9: voka | pos: verb", "author": "community_linguist", "metadata": {}},
+  {"id": "dict:B:term-12", "type": "dictionary_b", "content": "word: hello | nadi9: lora | pos: interjection", "author": "community_linguist", "metadata": {}},
+  {"id": "dict:B:term-13", "type": "dictionary_b", "content": "word: you | nadi9: tor | pos: pronoun", "author": "community_linguist", "metadata": {}},
+  {"id": "dict:B:term-14", "type": "dictionary_b", "content": "word: i | nadi9: kor | pos: pronoun", "author": "community_linguist", "metadata": {}},
+  {"id": "dict:B:term-15", "type": "dictionary_b", "content": "word: me | nadi9: kor | pos: pronoun", "author": "community_linguist", "metadata": {}},
+  {"id": "dict:B:term-16", "type": "dictionary_b", "content": "word: we | nadi9: mor | pos: pronoun", "author": "community_linguist", "metadata": {}},
+  {"id": "dict:B:term-17", "type": "dictionary_b", "content": "word: us | nadi9: mor | pos: pronoun", "author": "community_linguist", "metadata": {}},
+  {"id": "dict:B:term-18", "type": "dictionary_b", "content": "word: he | nadi9: sor | pos: pronoun", "author": "community_linguist", "metadata": {}},
+  {"id": "dict:B:term-19", "type": "dictionary_b", "content": "word: she | nadi9: har | pos: pronoun", "author": "community_linguist", "metadata": {}},
+  {"id": "dict:B:term-20", "type": "dictionary_b", "content": "word: food | nadi9: fud | pos: noun", "author": "community_linguist", "metadata": {}}
+]

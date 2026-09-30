@@ -1,0 +1,10 @@
+[
+  {"id": "grammar:rule-01", "type": "grammar_note", "content": "Nadi-9 typically follows a Subject-Object-Verb (SOV) word order.", "author": "linguist_primary"},
+  {"id": "grammar:rule-02", "type": "grammar_note", "content": "The past tense is marked by the suffix '-va' on verbs.", "author": "linguist_primary"},
+  {"id": "grammar:rule-03", "type": "grammar_note", "content": "The future tense is indicated by the suffix '-ki' on verbs.", "author": "linguist_primary"},
+  {"id": "grammar:rule-04", "type": "grammar_note", "content": "Negation is expressed using the prefix 'na-' attached to verbs.", "author": "linguist_primary"},
+  {"id": "grammar:rule-05", "type": "grammar_note", "content": "Respect towards elders is shown by appending the suffix '-jin' to kinship terms or names.", "author": "linguist_primary"},
+  {"id": "grammar:rule-06", "type": "grammar_note", "content": "When addressing a younger sibling or person, the suffix '-su' is used.", "author": "linguist_primary"},
+  {"id": "grammar:rule-07", "type": "grammar_note", "content": "Politeness levels often dictate vocabulary choice depending on the speaker's status relative to the listener.", "author": "linguist_primary"},
+  {"id": "grammar:rule-08", "type": "grammar_note", "content": "Code-switching with English is common in informal contexts.", "author": "linguist_primary"}
+]

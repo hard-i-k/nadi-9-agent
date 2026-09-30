@@ -1,1 +1,152 @@
-[{"id": "S01", "source_text": "You came back, elder brother?"}, {"id": "S02", "source_text": "Yes, I am back."}]
+[
+  {
+    "id": "S001",
+    "source_text": "Hello, friend.",
+    "start": "00:01:05,200",
+    "end": "00:01:07,000",
+    "speaker": "A",
+    "listener": "B",
+    "scene": "meet",
+    "metadata": {}
+  },
+  {
+    "id": "S002",
+    "source_text": "You came back, elder brother?",
+    "start": "00:01:10,000",
+    "end": "00:01:12,500",
+    "speaker": "Younger",
+    "listener": "Elder",
+    "scene": "home",
+    "metadata": {"kinship": true}
+  },
+  {
+    "id": "S003",
+    "source_text": "Yes, elder sister is here too.",
+    "start": "00:01:14,000",
+    "end": "00:01:16,000",
+    "speaker": "Elder",
+    "listener": "Younger",
+    "scene": "home",
+    "metadata": {"kinship": true}
+  },
+  {
+    "id": "S004",
+    "source_text": "The dog ate the food.",
+    "start": "00:01:20,000",
+    "end": "00:01:22,000",
+    "speaker": "A",
+    "listener": "B",
+    "scene": "joke",
+    "metadata": {"humor": true}
+  },
+  {
+    "id": "S005",
+    "source_text": "My computer is broken!",
+    "start": "00:01:25,000",
+    "end": "00:01:27,000",
+    "speaker": "A",
+    "listener": "B",
+    "scene": "office",
+    "metadata": {"code_switching": true}
+  },
+  {
+    "id": "S006",
+    "source_text": "I am honored by your visit.",
+    "start": "00:01:30,000",
+    "end": "00:01:32,000",
+    "speaker": "Servant",
+    "listener": "Master",
+    "scene": "hall",
+    "metadata": {"status": "low_to_high"}
+  },
+  {
+    "id": "S007",
+    "source_text": "You did well, honored one.",
+    "start": "00:01:34,000",
+    "end": "00:01:36,000",
+    "speaker": "Master",
+    "listener": "Guest",
+    "scene": "hall",
+    "metadata": {"status": "high_to_equal"}
+  },
+  {
+    "id": "S008",
+    "source_text": "I did not see.",
+    "start": "00:01:40,000",
+    "end": "00:01:42,000",
+    "speaker": "Witness",
+    "listener": "Guard",
+    "scene": "gate",
+    "metadata": {"negation": true}
+  },
+  {
+    "id": "S009",
+    "source_text": "We went away.",
+    "start": "00:01:45,000",
+    "end": "00:01:47,000",
+    "speaker": "Traveler",
+    "listener": "Host",
+    "scene": "inn",
+    "metadata": {"tense": "past"}
+  },
+  {
+    "id": "S010",
+    "source_text": "You will not return.",
+    "start": "00:01:50,000",
+    "end": "00:01:52,000",
+    "speaker": "Villain",
+    "listener": "Hero",
+    "scene": "battle",
+    "metadata": {"tense": "future"}
+  },
+  {
+    "id": "S011",
+    "source_text": "It is light.",
+    "start": "00:01:55,000",
+    "end": "00:01:57,000",
+    "speaker": "A",
+    "listener": "B",
+    "scene": "cave",
+    "metadata": {"ambiguous": true}
+  },
+  {
+    "id": "S012",
+    "source_text": "Let us be friends again.",
+    "start": "00:02:00,000",
+    "end": "00:02:03,000",
+    "speaker": "A",
+    "listener": "B",
+    "scene": "reconciliation",
+    "metadata": {}
+  },
+  {
+    "id": "S013",
+    "source_text": "Agent 007 is here.",
+    "start": "00:02:05,000",
+    "end": "00:02:07,000",
+    "speaker": "Spy",
+    "listener": "Chief",
+    "scene": "base",
+    "metadata": {"preservation": true}
+  },
+  {
+    "id": "S014",
+    "source_text": "Even though I saw the enemy, I did not run because I am brave.",
+    "start": "00:02:10,000",
+    "end": "00:02:15,000",
+    "speaker": "Soldier",
+    "listener": "Captain",
+    "scene": "camp",
+    "metadata": {"complex": true}
+  },
+  {
+    "id": "S015",
+    "source_text": "Goodbye for now.",
+    "start": "00:02:20,000",
+    "end": "00:02:22,000",
+    "speaker": "A",
+    "listener": "B",
+    "scene": "end",
+    "metadata": {}
+  }
+]

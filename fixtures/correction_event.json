@@ -1,0 +1,7 @@
+{
+  "type": "correct_word", 
+  "target_id": "dict:A:term-05", 
+  "old_value": "zara", 
+  "new_value": "zera", 
+  "reason": "Linguist review found vendor error"
+}

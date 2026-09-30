@@ -1,0 +1,23 @@
+{"timestamp": "2026-09-30T18:20:07.285185", "level": "INFO", "stage": "evidence", "message": "Stage 1: Loading evidence"}
+{"timestamp": "2026-09-30T18:20:07.288191", "level": "WARNING", "stage": "general", "message": "Prompt injection detected in feedback:F99: matched '(?i)ignore previous rules'"}
+{"timestamp": "2026-09-30T18:20:07.288191", "level": "WARNING", "stage": "general", "message": "Quarantined feedback:F99: prompt injection detected"}
+{"timestamp": "2026-09-30T18:20:07.288191", "level": "INFO", "stage": "general", "message": "Evidence loaded: {'loaded': 92, 'quarantined': 1}"}
+{"timestamp": "2026-09-30T18:20:07.288191", "level": "INFO", "stage": "evidence", "message": "Loaded {'loaded': 92, 'quarantined': 1}"}
+{"timestamp": "2026-09-30T18:20:07.289293", "level": "WARNING", "stage": "general", "message": "Quarantined dict:A:term-05: poisoned entry"}
+{"timestamp": "2026-09-30T18:20:07.289293", "level": "WARNING", "stage": "general", "message": "Quarantined dict:A:term-12: poisoned entry"}
+{"timestamp": "2026-09-30T18:20:07.289293", "level": "WARNING", "stage": "general", "message": "Quarantined dict:A:term-22: poisoned entry"}
+{"timestamp": "2026-09-30T18:20:07.289293", "level": "INFO", "stage": "general", "message": "Conflict detected: Dictionary conflict for 'speak': A says 'voka', B says 'vokar'"}
+{"timestamp": "2026-09-30T18:20:07.289293", "level": "INFO", "stage": "general", "message": "Conflict detected: Dictionary conflict for 'again': A says 'rakshi', B says 'reksha'"}
+{"timestamp": "2026-09-30T18:20:07.289293", "level": "INFO", "stage": "general", "message": "Conflict detected: Dictionary conflict for 'see': A says 'shara', B says 'shera'"}
+{"timestamp": "2026-09-30T18:20:07.289293", "level": "INFO", "stage": "general", "message": "Conflict detected: Dictionary conflict for 'look': A says 'shara', B says 'shera'"}
+{"timestamp": "2026-09-30T18:20:07.289293", "level": "INFO", "stage": "evidence", "message": "Found 4 conflicts, quarantined 3 entries"}
+{"timestamp": "2026-09-30T18:20:07.289293", "level": "INFO", "stage": "learning", "message": "Stage 2: Generating hypotheses"}
+{"timestamp": "2026-09-30T18:20:07.290323", "level": "INFO", "stage": "learning", "message": "Stage 3: Testing hypotheses"}
+{"timestamp": "2026-09-30T18:20:07.291319", "level": "INFO", "stage": "learning", "message": "Rules: 12 total, 0 supported, 12 unsupported"}
+{"timestamp": "2026-09-30T18:20:07.291319", "level": "INFO", "stage": "planning", "message": "Stage 4: Planning"}
+{"timestamp": "2026-09-30T18:20:07.292307", "level": "INFO", "stage": "planning", "message": "Planned 15 lines, highest risk: 11"}
+{"timestamp": "2026-09-30T18:20:07.292307", "level": "INFO", "stage": "translation", "message": "Stage 5: Translation"}
+{"timestamp": "2026-09-30T18:20:07.293321", "level": "INFO", "stage": "translation", "message": "Translated 15 lines"}
+{"timestamp": "2026-09-30T18:20:07.293321", "level": "INFO", "stage": "verification", "message": "Stage 6: Verification"}
+{"timestamp": "2026-09-30T18:20:07.293321", "level": "INFO", "stage": "escalation", "message": "Stage 7: Escalation"}
+{"timestamp": "2026-09-30T18:20:07.293321", "level": "INFO", "stage": "output", "message": "Stage 8: Writing outputs"}
